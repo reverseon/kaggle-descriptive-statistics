@@ -1,0 +1,50 @@
+.central_tendency small {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.central_tendency {
+    overflow: auto;
+}
+.central_tendency h5 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.variability {
+    overflow: auto;
+}
+.variability h5 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.variability small {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.extras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 20px;
+}
+
+@media (max-width: 768px) {
+    .extras {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .variability {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+    .central_tendency {
+        margin: 20px 0 0 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,69 @@
+.uploader {
+    backdrop-filter: blur(12px) saturate(66%);
+    -webkit-backdrop-filter: blur(12px) saturate(66%);
+    background-color: rgba(17, 25, 40, 0.75);
+    /*border-radius: 12px;*/
+    /*border: 1px solid rgba(255, 255, 255, 0.125);*/
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*border-radius: 12px;*/
+    /*border: 1px solid rgba(255, 255, 255, 0.125);*/
+}
+
+.uploader-title-container {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding: 50px 20px 50px 20px;
+}
+.uploader-title-container h1 {
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.uploader-title-container h5 {
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.uploader-title-container > * {
+    margin: 20px 0 0 0;
+}
+.uploader a {
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+    font-weight: 600;
+    /*font-size: 22px;*/
+}
+
+#kaggleurl {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    /*background-color: rgba(255, 255, 255, 1);*/
+    outline: none;
+}
+
+#form-csv {
+    width: 80%;
+    max-width: 743px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.help {
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,2 @@
+# Frontend
+This is a frontend implementation of my Kaggle Descriptive Statistics Generator. This was built using React and Google Chart. Please note that this is still in development. I hope I'll find the time soon.

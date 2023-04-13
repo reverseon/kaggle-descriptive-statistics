@@ -1,2 +1,2 @@
-# kaggle-descriptive-statistics
-A Descriptive Statistics Generator from Kaggle URL. This project currently still in development.
+# Kaggle Descriptive Statistics Generator
+A Descriptive Statistics Generator from a Kaggle Datasets URL. This project currently still in development. Backend using FastAPI and Front-end using React and Google Chart. See each individual folder for specific implementation
