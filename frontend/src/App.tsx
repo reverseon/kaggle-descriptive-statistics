@@ -17,7 +17,7 @@ function App() {
         setError(undefined)
         setLoading(true)
         setData(undefined)
-        axios.post(`${BASE_URL}/csv`, {
+        axios.post(`${BASE_URL}/csv/`, {
             url: url
         }).then((response) => {
             setLoading(false)
